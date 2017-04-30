@@ -132,6 +132,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images
 
+ifneq ($(TARGET_NO_DSPMANAGER), true)
+PRODUCT_PACKAGES += \
+    libcyanogen-dsp \
+    audio_effects.conf
+endif
 
 # DU Utils Library
 PRODUCT_PACKAGES += \
