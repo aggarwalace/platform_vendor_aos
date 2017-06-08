@@ -40,6 +40,8 @@ PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     Stk \
     ThemeInterfacer \
+    DSPManager \
+    MusicFX \
     Turbo \
     ViaBrowser \
     Amaze
@@ -149,3 +151,4 @@ ifeq ($(WITH_ROOT),true)
 else
 $(warning Root method is undefined, please use 'WITH_ROOT := true' to define it)
 endif
+
